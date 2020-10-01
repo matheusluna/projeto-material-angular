@@ -1,0 +1,13 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-sidenav-content {
+  height: 100%;
+}
+
+.example-sidenav {
+  padding: 20px;
+  height: 100%;
+  background-color: #00455C;
+}
