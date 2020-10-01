@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$indra-theme-primary: mat-palette($mat-red);
+$indra-theme-accent:  mat-palette($mat-pink, A200, A100, A400);
+$indra-theme-warn: mat-palette($mat-red);
+
+$indra-theme: mat-light-theme($indra-theme-primary, $indra-theme-accent, $indra-theme-warn);
+
+@include angular-material-theme($indra-theme);
